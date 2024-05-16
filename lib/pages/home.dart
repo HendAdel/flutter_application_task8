@@ -61,15 +61,15 @@ class HomePage extends StatelessWidget {
                 ),
               ],
             ),
-          // Center(
-          //   child: Column(
-          //     children: [
-          //       Image.asset('assets/pizzaHome.jpg',
-          //     height: 300, width: 400,),
-          //     Text("Hi, I'm the Pizza Assistant, what can I help you order?",
-          //     style: TextStyle(fontSize: 30), textAlign: TextAlign.center,)
-          //     ],),
-          // )
+          Center(
+            child: Column(
+              children: [
+                Image.asset('assets/pizzaHome.jpg',
+              height: 300, width: 400,),
+              Text("Hi, I'm the Pizza Assistant, what can I help you order?",
+              style: TextStyle(fontSize: 30), textAlign: TextAlign.center,)
+              ],),
+          )
           ],
         )
         ),
